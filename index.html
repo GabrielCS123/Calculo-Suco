@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Suco</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <main class="principal">
+
+        <div class="caixa1">
+            <p>Quantos litros de refresco deseja fazer?
+                <input type="text" id="litros">
+            </p>
+        </div>
+
+        <div class="caixa2">
+            <p>
+                Escolha o tipo de suco:
+            </p>
+
+            <div class="caixa2C">
+                <input id="maracuja" type="radio" name="radio" value="maracuja">
+                <label for="maracuja">maracujá</label>
+    
+                <input id="caju" type="radio" name="radio" value="caju">
+                <label for="caju">caju</label>
+    
+                <input id="goiaba" type="radio" name="radio" value="goiaba">
+                <label for="goiaba">goiaba</label>
+            </div>
+
+        </div>
+
+        <div class="caixa3">
+            <p>
+                Itens extras a utilizar:
+            </p>
+            
+            <div class="caixa3C">
+                <input type="checkbox" name="extras" value="1">
+                <label for="extras"> açucar </label>
+    
+                <input type="checkbox" name="extras" value="2">
+                <label for="extras"> gelo </label>
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button class="calcular">Calcular</button>
+            <button class="novo"> <a href="">Novo</a></button>
+        </div>
+
+        <div class="resultados">
+
+            <div class="resultadosA">
+                <p class="resultados_p1">Água:
+                <p>
+                <p class="resultados_p1_r"></p>
+            </div>
+
+            <div class="resultadosS">
+                <p class="resultados_p2">Suco: </p>
+                <p class="resultados_p2_r"></p>
+            </div>
+
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
